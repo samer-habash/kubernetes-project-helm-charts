@@ -3,9 +3,9 @@ entries:
   rabbitmq-chart:
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2020-05-07T23:58:24.315480024Z"
+    created: "2020-05-08T00:00:43.753644337Z"
     description: A Helm chart for Kubernetes
-    digest: 4f2594d273a7e71761bd6e38a3c7152152db1b7ef09c5af25cda476ffdd43f31
+    digest: 39fbc2911a377a38a7eac161c4fb1cd250b23a04c1e698366a07a4c24f8082ee
     name: rabbitmq-chart
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2020-05-07T23:58:24.314956995Z"
+    created: "2020-05-08T00:00:43.752578946Z"
     description: A Helm chart for Kubernetes
     digest: 7ec2112ad14893b29a0b74e92963e0e87722b7ee40d02df450e6952288a6ee8e
     name: rabbitmq-chart
@@ -23,7 +23,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2020-05-07T23:58:24.31441697Z"
+    created: "2020-05-08T00:00:43.752016809Z"
     description: A Helm chart for Kubernetes
     digest: 6eccff9d94a667ed45db232e0d03fdf39e62fde6f02a13f567b6a6ca3e05e53e
     name: rabbitmq-chart
@@ -33,7 +33,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-07T23:58:24.31387175Z"
+    created: "2020-05-08T00:00:43.75146683Z"
     description: A Helm chart for Kubernetes
     digest: 898f2970f412dc828759d5beb4f5ae01cd32586f20e7d6e1dfcd46c25a99068b
     name: rabbitmq-chart
@@ -41,4 +41,4 @@ entries:
     urls:
     - https://samer-habash.github.io/kubernetes-project-helm-charts/index/rabbitmq-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-07T23:58:24.313106034Z"
+generated: "2020-05-08T00:00:43.750730615Z"
