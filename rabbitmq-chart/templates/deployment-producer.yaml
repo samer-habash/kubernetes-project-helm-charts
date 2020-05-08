@@ -29,10 +29,10 @@ spec:
         image: {{ .Values.producer.image.repository }}
         imagePullPolicy: {{ .Values.producer.image.pullPolicy }}
         env:
-        - name: {{ .Values.producer.env.name }}
-          value: "{{ .Values.producer.env.value }}"
+        - name: {{ .Values.producer.message.name }}
+          value: "{{ .Values.producer.message.Countvalue }}"
         command: ["python", "producer.py", "-p", "{{ .Values.rabbitmq.ports.containerPortAPI }}", "-s", "{{ .Values.rabbitmq.service.name }}"]
-        args: ["-r", "$({{ .Values.producer.env.name }})"]
+        args: ["-r", "$({{ .Values.producer.message.Countvalue }})"]
         resources:
           {{- toYaml .Values.resources | nindent 10 }}
       {{- with .Values.nodeSelector }}

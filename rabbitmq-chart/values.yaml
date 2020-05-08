@@ -73,9 +73,9 @@ producer:
   nameOverride: ""
   fullnameOverride: ""
 
-  env:
+  message:
     name: message_count
-    value: "500"
+    Countvalue: "500"
 
   podSecurityContext: {}
     # fsGroup: 2000
