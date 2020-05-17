@@ -75,7 +75,7 @@ producer:
 
   message:
     name: message_count
-    Countvalue: "500"
+    Countvalue: 500 
 
   podSecurityContext: {}
     # fsGroup: 2000
