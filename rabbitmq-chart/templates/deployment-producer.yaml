@@ -32,7 +32,7 @@ spec:
         - name: {{ .Values.producer.message.name }}
           value: "{{ .Values.producer.message.Countvalue }}"
         command: ["python", "producer.py", "-p", "{{ .Values.rabbitmq.ports.containerPortAPI }}", "-s", "{{ .Values.rabbitmq.service.name }}"]
-        args: ["-r", "$({{ .Values.producer.message.Countvalue }})"]
+        args: ["-r", "{{ .Values.producer.message.Countvalue }}"]
         resources:
           {{- toYaml .Values.resources | nindent 10 }}
       {{- with .Values.nodeSelector }}
